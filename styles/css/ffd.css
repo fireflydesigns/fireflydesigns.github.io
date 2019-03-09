@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 5px;
 }
 
-.tranquil-body a {
+.ffd-body a {
 	color: #C39F67;
 }
 .inverse:hover,
@@ -53,8 +53,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: #C39F67 !important;
 }
 
-.tranquil-body a:hover,
-.tranquil-body a:focus,
+.ffd-body a:hover,
+.ffd-body a:focus,
 a.inverse,
 a.inverse-noactive {
   color: #333;
@@ -295,17 +295,17 @@ a.comments {
 	visibility: hidden;
 }
 
-.nav-tabs-tranquil > li > a {
+.nav-tabs-ffd > li > a {
 	display: none;
 }
 
-.nav-tabs-tranquil > li.active > a {
+.nav-tabs-ffd > li.active > a {
 	display: block;
 }
 
-.nav-tabs-tranquil > li.active > a,
-.nav-tabs-tranquil > li.active > a:hover,
-.nav-tabs-tranquil > li.active > a:focus {
+.nav-tabs-ffd > li.active > a,
+.nav-tabs-ffd > li.active > a:hover,
+.nav-tabs-ffd > li.active > a:focus {
   color: #555;
   cursor: default;
   background-color: #fff;
