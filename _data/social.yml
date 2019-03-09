@@ -1,11 +1,5 @@
 - name: facebook
   url: http://facebook.com/#
 
-- name: linkedin
-  url: http://linkedin.com/#
-
-- name: twitter
-  url: http://twitter.com/#
-
 - name: instagram
   url: http://instagram.com/#
