@@ -18,7 +18,6 @@
 			{% for i in (0..length) %}{% unless forloop.last %}
 			{% assign mypost = site.tags.feature[i] %}
 			<div class="item {% if i==0 %} active {% endif %} slider-image" style="background:url('{{ mypost.background | prepend: site.baseurl }}') no-repeat center center; background-size: 100% 100%;">
-
 			</div>
 			{% endunless %}{% endfor %}
 		</div>

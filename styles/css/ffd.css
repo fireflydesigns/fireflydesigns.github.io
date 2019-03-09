@@ -396,53 +396,6 @@ a.comments {
 	list-style: none;
 }
 
-.post-content > p, ol, ul, blockquote, dl {
-	font-size: 15px;
-}
-
-.post-content > h1 {
-	font-size: 24px;
-}
-
-.post-content > h2 {
-	font-size: 22px;
-}
-
-.post-content > h3 {
-	font-size: 20px;
-}
-
-.post-content > h4 {
-	font-size: 19px;
-}
-
-.post-content > h5 {
-	font-size: 18px;
-}
-
-.post-content > h6 {
-	font-size: 17px;
-}
-
-.post-content table {
-	margin: 10px auto;
-}
-
-.post-content th {
-	color: #fff;
-	padding: 5px;
-	background: #C39F67;
-	text-transform: uppercase;
-	text-align: center;
-	border: 1px solid #e5b4a3;
-}
-
-.post-content td {
-	padding: 5px 20px;
-	background-color: #f5f5f5;
-	border: 1px solid #C39F67;
-}
-
 pre code {
     white-space: pre;
 }
