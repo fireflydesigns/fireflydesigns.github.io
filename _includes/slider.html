@@ -1,7 +1,7 @@
 <div class="container bottom-space">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		{% if site.tags.feature.size > 10 %}
-		{% assign length = 5 %}
+		{% assign length = site.tags.feature.size %}
 		{% else %}
 		{% assign length = site.tags.feature.size %}
 		{% endif %}

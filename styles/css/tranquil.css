@@ -10,8 +10,8 @@
 }
 
 .docs-title {
-	padding-top: 10rem;
-	padding-bottom: 5rem;
+	padding-top: 7rem;
+	padding-bottom: 3rem;
 	margin: 10px 0 20px 0;
 }
 
@@ -261,7 +261,7 @@ a.comments {
 }
 
 .bottom-space {
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 
 .tag-post-list {
@@ -272,6 +272,15 @@ a.comments {
 
 @media (max-width: 539px) {
 	.tag-post-list { margin-left: 0; }
+	.bottom-space { margin-bottom: 85px; }
+}
+
+@media (max-width: 411px) {
+	.bottom-space { margin-bottom: 105px; }
+}
+
+@media (max-width: 375px) {
+	.bottom-space { margin-bottom: 132px; }
 }
 
 .tags-expo-list {
@@ -279,9 +288,9 @@ a.comments {
 }
 
 .tag-title:before {
-	display: block; 
-	content: " "; 
-	margin-top: -55px; 
+	display: block;
+	content: " ";
+	margin-top: -55px;
 	height: 55px;
 	visibility: hidden;
 }
@@ -314,7 +323,7 @@ a.comments {
 .category-subtitle {
 	color: #a7a7a7;
 	padding-bottom: 3px;
-	border-bottom: solid 1px #ddd; 
+	border-bottom: solid 1px #ddd;
 }
 
 .slider-title {
@@ -352,7 +361,7 @@ a.comments {
 	color: #a7a7a7;
 }
 
-#back_top:hover, 
+#back_top:hover,
 #back_top:focus {
 	color: #333;
 }
