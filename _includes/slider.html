@@ -18,15 +18,7 @@
 			{% for i in (0..length) %}{% unless forloop.last %}
 			{% assign mypost = site.tags.feature[i] %}
 			<div class="item {% if i==0 %} active {% endif %} slider-image" style="background:url('{{ mypost.background | prepend: site.baseurl }}') no-repeat center center; background-size: 100% 100%;">
-				<div class="carousel-caption slider-title">
-					<p class="post-category-large text-uppercase"><a href="{{ site.baseurl }}/category.html#{{ mypost.category }}" class="white">{{ mypost.category }}</a></p>
 
-					<h2 class="post-title text-uppercase"><a href="{{ mypost.url | prepend: site.baseurl }}" class="white">{{ mypost.title }}</a></h2>
-
-					<img src="{{ '/styles/img/vintage-border2.png' | prepend: site.baseurl }}" class="shadow decorline2">
-
-					<p class="post-date-large">{{ mypost.date | date: "%B %-d, %Y" }}</p>
-				</div>
 			</div>
 			{% endunless %}{% endfor %}
 		</div>
